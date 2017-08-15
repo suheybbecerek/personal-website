@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=90, initial-scale=1">
+
+
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- font awesome CDN -->
+    <script src="https://use.fontawesome.com/7627dbb339.js"></script>
+
+
+
+
+    <style media="screen" type="text/css">
+        html {
+            height: 100%;
+        }
+
+        body {
+
+            background-image: url('background.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        #content {
+            text-align: center;
+
+            text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+            0px 8px 13px rgba(0, 0, 0, 0.1),
+            0px 18px 23px rgba(0, 0, 0, 0.1);
+        }
+
+        #const {
+            color: #FFFFF5;
+            font-weight: bold;
+            font-size: 5em;
+        }
+
+
+        .social i {
+            padding-top: 50%;
+            font-size: 2em;
+            color: #cccccc;
+        }
+
+        .sections {
+            padding-top: 1%;
+        }
+
+        .sections .section-option i {
+            padding-top: 15px;
+            color: #999999;
+            font-size: 10em;
+        }
+
+        .logo {
+            font-size: 1.2em;
+        }
+        /*******HAMBURGER FIX*********/
+
+        @media (max-width: 991px) {
+            .navbar-collapse.collapse {
+                display: none !important;
+            }
+            .navbar-collapse.collapse.in {
+                display: block !important;
+            }
+            .navbar-header .collapse,
+            .navbar-toggle {
+                display: block !important;
+            }
+            .navbar-header {
+                float: none;
+            }
+        }
+    </style>
+
+
+    <title>Halil Süheyb Becerek</title>
+</head>
+
+<body>
+
+    <!-- start of the navbar -->
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+
+          </button>
+                    <a class="navbar-brand" href="#"><i class="fa fa-code logo" aria-hidden="true"></i>    Halil Süheyb Becerek</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>    Home</a></li>
+                        <li><a href="blog.html"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>    Blog</a></li>
+                        <li class="active"><a href="projects.html"><i class="fa fa-github" aria-hidden="true"></i>    Projects</a></li>
+                        <li><a href="history.html"><i class="fa fa-briefcase" aria-hidden="true"></i>    Work /    <i class="fa fa-university" aria-hidden="true"></i> Education History</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="about.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i>    About</a></li>
+                        <li><a href="contact.html"><i class="fa fa-envelope-o" aria-hidden="true"></i>    Contact</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+    </nav>
+    <!-- end of the navbar -->
+
+
+    <div class="container">
+        <div id="content">
+
+            <div style="margin-top:50px; background-color:rgba(0,0,0,0.8);text-align:left; !important" class="jumbotron ">
+                <ul style="color:#ffffff;list-style-image:url(language_logos/bullet.png);font-size:18px;">
+                    <li style="">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        <ul style="color:#b3b3b3;list-style:none;font-size:14px    ">
+                            <li>
+                                <button onclick="parent.open('#')"  style="float:right; height:40px; border: none;border-radius:50%;background-color:rgba(255,255,255,0)"> <img src="language_logos/github image.png" width="24" alt=""></button>
+
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+
+                <hr style="color:#808080; height: 6px;background: url(hr-custom.png) repeat-x 0 0;border: 0;">
+
+                <ul style="color:#ffffff;list-style-image:url(language_logos/bullet.png);font-size:18px;">
+                    <li style="">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        <ul style="color:#b3b3b3;list-style:none;font-size:14px    ">
+                            <li>
+
+                                <button onclick="parent.open('#')"  style="float:right; height:40px; border: none;border-radius:50%;background-color:rgba(255,255,255,0)"> <img src="language_logos/github image.png" width="24" alt=""></button>
+
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <hr style="color:#808080; height: 6px;background: url(hr-custom.png) repeat-x 0 0;border: 0;">
+
+                <ul style="color:#ffffff;list-style-image:url(language_logos/bullet.png);font-size:18px;">
+                    <li style="">
+
+                    <div class="tags" style="float:right">
+                        <img src="language_logos/python.png" alt="">
+                        <span style="display:inline-block; width: 5px;"></span>
+                        <img src="language_logos/js.jpg" alt="">
+                    </div>
+
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        <ul style="color:#b3b3b3;list-style:none;font-size:14px    ">
+                            <li>
+
+                                <button onclick="parent.open('#')"  style="float:right; height:40px; border: none;border-radius:50%;background-color:rgba(255,255,255,0)"> <img src="language_logos/github image.png" width="24" alt=""></button>
+
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+
+
+
+            </div>
+
+            <div class="row">
+                <div class="social">
+                    <div class="col-xs-2"><a href="https://www.facebook.com/suheyb.becerek" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></div>
+                    <div class="col-xs-2"><a href="https://twitter.com/halil_suheyb" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></div>
+                    <div class="col-xs-2"><a href="https://www.instagram.com/suheyb.becerek/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
+                    <div class="col-xs-2"><a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></div>
+                    <div class="col-xs-2"><a href="https://www.linkedin.com/in/halil-s%C3%BCheyb-becerek-5547a512b/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></div>
+                    <div class="col-xs-2"><a href="https://github.com/suheybbecerek" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
